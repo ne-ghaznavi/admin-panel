@@ -30,8 +30,38 @@
     align-items: center;
     padding: 5px;
     cursor: pointer;
+    color: #7451f8;
+    font-size: 14px;
+}
+
+.center ul li span {
+    font-weight: 600;
+    color: #888;
+    margin-right: 5px;
 }
 
 .center ul li:hover {
     background-color: #eee;
+}
+
+.bottom {
+    display: flex;
+    padding: 10px 15px;
+}
+.colorOption {
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    border: 1px solid #7451f8;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+.colorOption:nth-child(1){
+    background-color: #fff;
+}
+
+.colorOption:nth-child(2){
+    background-color: #333;
+    
 }
