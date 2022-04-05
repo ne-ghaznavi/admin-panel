@@ -2,6 +2,7 @@ import React from 'react';
 
 import Navbar from '../../components/navbar/Navbar';
 import Sidebar from '../../components/sidebar/Sidebar';
+import Widgets from '../../components/widgets/Widgets';
 
 import './home.css';
 
@@ -11,7 +12,13 @@ const Home = () => {
             <Sidebar/>
             <div className="homeContainer">
                 <Navbar/>
-                container
+                <div className='widgets__container'>
+                    <Widgets type="کاربرها"/>
+                    <Widgets type="سفارش ها"/>
+                    <Widgets type="کیف پول"/>
+                    <Widgets type="پیام ها"/>
+                </div>
+                <div cl></div>
             </div>
         </div>
     );

@@ -1,0 +1,54 @@
+.widgets {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 3px 8px gainsboro;
+    cursor: pointer;
+}
+
+.left,
+.right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.left .title {
+    font-size: 16px;
+    color: #888;
+}
+
+.left .count {
+    font-size: 22px;
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+.left .link {
+    font-size: 13px;
+    border-bottom: 1px solid gray;
+    cursor: pointer;
+}
+
+.percentage {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.percentage.positive {
+    color: green;
+}
+
+.percentage.negative{
+    color: red;
+}
+.right .icon {
+    align-self: flex-end;
+    padding: 3px;
+    border-radius: 5px;
+}
